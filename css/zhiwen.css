@@ -1,0 +1,197 @@
+@import "base.css";
+html{
+    background: #fff;
+}
+body{
+    background-color: #f6f1f1;
+}
+header{
+    width: 100%;
+    height: 0.4rem;
+    background: #16d6cb;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    display: block;
+}
+header img{
+    width: 7rem;
+    height: 0.23rem;
+    margin-top: 0.1rem;
+    margin-left: 0.23rem;
+}
+.jleft{
+    width: 100%;
+    height: 0.9rem;
+    background-color: #17e2d6;
+    overflow: hidden;
+}
+.jleft img{
+    width: 0.19rem;
+    height: 0.37rem;
+    margin-top: 0.31rem;
+    margin-left: 0.26rem;
+}
+.money{
+    width: 100%;
+    height: 1.74rem;
+    background-color: #17e2d6;
+    overflow: hidden;
+}
+.money span{
+    display: block;
+    color: #fff;
+    font-size: 0.34rem;
+    margin-top: 0.34rem;
+    margin-left: 0.42rem;
+}
+.money .juxing{
+    width: 7.02rem;
+    height: 1.3rem;
+    position: absolute;
+    top:2.39rem;
+    left: 0.24rem;
+    background-color: #fff;
+    box-shadow: 0 0.05rem 0.01rem 0.01rem #e0dbdb;
+}
+.money .juxing img{
+    width: 0.42rem;
+    height: 0.46rem;
+    position: absolute;
+    top: 0.46rem;
+    left: 0.53rem;
+}
+.money .juxing .zhifu{
+    width: 5.04rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0.52rem;
+    left: 1.47rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zhifu .zhiful{
+    font-size: 0.34rem;
+    color: #000;
+    line-height: 0.34rem;
+}
+.zhifu .zhifur{
+    font-size: 0.28rem;
+    color: #ff0006;
+    line-height: 0.34rem;
+}
+.money .yuan{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.29rem;
+    left: 0.54rem;
+    background-color: #fff;
+}
+.card img{
+    width: 6.3rem;
+    height: 4.08rem;
+    position: absolute;
+    top: 3.83rem;
+    left: 0.54rem;
+}
+.white{
+    width: 100%;
+    height: 1.94rem;
+    position: absolute;
+    top: 6.54rem;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.5;
+    box-shadow: 0 -0.05rem 0.01rem 0.01rem #e6e2e2;
+}
+.lpoint{
+    width: 0.41rem;
+    height: 0.11rem;
+    position: absolute;
+    top: 0.68rem;
+    left:  1.82rem;
+    display: flex;
+    justify-content: space-between;
+}
+.rpoint{
+    width: 0.41rem;
+    height: 0.11rem;
+    position: absolute;
+    top: 0.68rem;
+    right:  1.99rem;
+    display: flex;
+    justify-content: space-between;
+}
+.son1{
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #bec9b4;
+    border-radius: 50%;
+}
+.son2{
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #85c090;
+    border-radius: 50%;
+}
+.son3{
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #03ac3e;
+    border-radius: 50%;
+}
+.zhiwen{
+    width: 2.87rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.6rem;
+    left: 2.23rem;
+    text-align: center;
+    font-size: 0.23rem;
+    line-height: 0.23rem;
+    color: #322a2b;
+}
+.bottom{
+    width: 100%;
+    height: 5.19rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bottom img{
+    width: 100%;
+    height: 5.19rem;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bottom img:nth-child(1){
+    height: 4.95rem;
+    opacity: 1;
+    z-index: 2;
+}
+#saomiao{
+    width: 1.23rem;
+    height: 1.22rem;
+    position: absolute;
+    bottom: 2.69rem;
+    left: 3.04rem;
+    opacity: 1;
+    z-index: 3;
+}
+.btext{
+    width: 2rem;
+    height: 0.23rem;
+    position: absolute;
+    bottom: 1.72rem;
+    left: 2.74rem;
+    font-size: 0.23rem;
+    line-height: 0.23rem;
+    text-align: center;
+    color: #fefefe;
+    z-index: 3;
+}

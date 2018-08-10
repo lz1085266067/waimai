@@ -1,0 +1,187 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 1.3rem;
+}
+header .status{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #1CE8D6;
+    font-size: 12px;
+    line-height: 0.4rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+header .title{
+    width: 100%;
+    height: 0.9rem;
+    background: #17e2d6;
+    display: flex;
+    justify-content: space-between;
+}
+header .title .seting{
+    width: auto;
+    height: auto;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+}
+header .title .skill{
+    width:auto;
+    height: auto;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+}
+.user{
+    width: 100%;
+    height: 4.09rem;
+    background-color: #1CE8D6;
+    overflow: hidden;
+    position: relative;
+}
+.user .radius{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 0.96rem;
+    left: -4.8rem;
+}
+.user .head{
+    width: 1.48rem;
+    height: 1.48rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.28rem;
+    left: 3rem;
+}
+.user .dateil{
+    width: 100%;
+    height: 2.33rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.user .dateil .username{
+    width: 100%;
+    height: 0.95rem;
+    text-align: center;
+    line-height: 0.95rem;
+    font-size: 18px;
+}
+.user .dateil .footprint{
+    width: 7rem;
+    height: 1.38rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 12px;
+}
+.user .dateil .footprint img{
+    margin-bottom: 0.2rem;
+}
+.classify{
+    width: 7rem;
+    height: 6.96rem;
+    margin: 0 auto;
+    border-top: 1px solid #999;
+    box-sizing: border-box;
+}
+.classify h1{
+    display: block;
+    width: auto;
+    height: 0.3rem;
+    font-size: 14px;
+    margin-left: 0.3rem;
+}
+.classify .imgbox{
+    width: 0.93rem;
+    height: 1.27rem;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.classify .imgbox .small{
+    width: 0.83rem;
+    height: 0.83rem;
+    border:1px solid #777;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classify .imgbox span{
+    display: block;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 0.1rem;
+    text-align: center;
+}
+.classify .top{
+    width: 7rem;
+    height: 4.15rem;
+    margin: 0 auto;
+}
+.classify .top .imgboxs{
+    width: 5.53rem;
+    height: 3.85rem;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.classify .top .imgboxs .imgbox:last-child{
+    position: absolute;
+    top: 1.8rem;
+    left: 0rem;
+}
+.classify .bottom{
+    width: 7rem;
+    height: 2.8rem;
+    margin: 0 auto;
+}
+.classify .bottom .imgboxs{
+    width: 5.53rem;
+    height: 2.8rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+footer{
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid #777;
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    display: block;
+    width: 0.48rem;
+    height: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+footer ul li:last-child{
+    color: #16E2D6;
+}
+footer ul li:first-child i{
+    font-size: 20px;
+}
+footer ul li span{
+    display: block;
+    margin-top: 0.1rem;
+}
